@@ -15,6 +15,7 @@ RUN echo "postfix postfix/mailname string localhost" | debconf-set-selections \
 		php5-imagick \
 		php5-imap \
 		php5-pgsql \
+		php5-ldap \
 		postfix \
 		postgresql-client \
 		unzip \
